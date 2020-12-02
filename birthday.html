@@ -23,22 +23,11 @@ div {
   padding: 20px;
 }
 </style>
- <iframe src="Happy.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-</iframe>
-  <audio autoplay loop  id="playAudio">
-    <source src="Happy.mp3">
-</audio>
- 
-  <script>
-  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  }</script>
-<body>
 
+<body>
+<audio controls autoplay loop>
+   <source src="Happy.mp3" type="audio/mpeg" />
+</audio
   <img src="https://30birthdayideas.com/wp-content/uploads/2019/12/happy-birthday-gif.gif" alt="happy birthday" width="100%" hight="50%">
 <div style="background-image: url('https://filmdaily.co/wp-content/uploads/2020/06/birthday-lede.jpg')">
 <h1>HAPPY BIRTHDAY ARADHYA SAHU</h1></div>
